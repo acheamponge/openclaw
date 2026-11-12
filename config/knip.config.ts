@@ -1504,6 +1504,7 @@ const config = {
     ]),
     [`${BUNDLED_PLUGIN_ROOT_DIR}/cohere`]: bundledPluginWorkspace(),
     [`${BUNDLED_PLUGIN_ROOT_DIR}/comfy`]: bundledPluginWorkspace(),
+    [`${BUNDLED_PLUGIN_ROOT_DIR}/crusoe`]: bundledPluginWorkspace(),
     [`${BUNDLED_PLUGIN_ROOT_DIR}/copilot`]: bundledPluginWorkspace([
       // The plugin README invokes this benchmark and its NODE_OPTIONS preload by path.
       "test/bench-attempt-transcript-journal.ts!",

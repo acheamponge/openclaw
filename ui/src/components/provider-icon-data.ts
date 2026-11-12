@@ -21,6 +21,7 @@ const PROVIDER_ICON_NAMES = new Set([
   "cohere",
   "comfy",
   "commandcode",
+  "crusoe",
   "copilot",
   "crof",
   "crossmodel",

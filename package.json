@@ -321,6 +321,7 @@
     "!dist/extensions/chutes/**",
     "!dist/extensions/cohere/**",
     "!dist/extensions/comfy/**",
+    "!dist/extensions/crusoe/**",
     "!dist/extensions/clickclack/**",
     "!dist/extensions/cloudflare-ai-gateway/**",
     "!dist/extensions/codex/**",

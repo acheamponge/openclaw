@@ -11,6 +11,11 @@ import { resolveProviderContractProvidersForPluginIds } from "./registry.js";
 // Rows that set compat.defaultThinkingLevel own their thinking profile; no provider hook runs.
 // Each expectation is the profile the deleted provider hook returned for that row.
 const EXPECTED: Record<string, { levels: string[]; defaultLevel: string }> = {
+  "crusoe/openai/gpt-oss-120b": { levels: ["low", "medium", "high"], defaultLevel: "medium" },
+  "crusoe/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B": crusoeToggle("low"),
+  "crusoe/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B": crusoeToggle("low"),
+  "crusoe/nvidia/Nemotron-3-Nano-Omni-Reasoning-30B-A3B": crusoeToggle("low"),
+  "crusoe/google/gemma-4-31b-it": crusoeToggle("off"),
   "deepseek/deepseek-flash": deepSeekV4(),
   "deepseek/deepseek-v4-flash": deepSeekV4(),
   "deepseek/deepseek-v4-flash-vision-exp": deepSeekV4(),
@@ -43,6 +48,11 @@ const EXPECTED: Record<string, { levels: string[]; defaultLevel: string }> = {
   "xai/grok-4.3": { levels: ["off", "minimal", "low", "medium", "high"], defaultLevel: "low" },
   "xai/grok-4.20-0309-reasoning": { levels: ["off"], defaultLevel: "off" },
 };
+
+// Crusoe hybrid-reasoning rows: `reasoning_effort: "none"` is off, any other value is on.
+function crusoeToggle(defaultLevel: "off" | "low") {
+  return { levels: ["off", "low:on"], defaultLevel };
+}
 
 function kimiK3(off: boolean) {
   const levels = ["minimal", "low", "medium", "adaptive", "high", "xhigh", "max"];

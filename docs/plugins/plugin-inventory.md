@@ -214,7 +214,7 @@ Each entry lists the package, distribution route, and description.
 
 ## Official external packages
 
-105 plugins
+106 plugins
 
 - **[abliteration](/plugins/reference/abliteration)** (`@openclaw/abliteration-provider`) - npm or ClawHub: `@openclaw/abliteration-provider`. OpenClaw Abliteration provider plugin.
 
@@ -253,6 +253,8 @@ Each entry lists the package, distribution route, and description.
 - **[comfy](/plugins/reference/comfy)** (`@openclaw/comfy-provider`) - npm or ClawHub: `@openclaw/comfy-provider`. Adds ComfyUI model provider support to OpenClaw.
 
 - **[copilot](/plugins/reference/copilot)** (`@openclaw/copilot`) - npm or ClawHub: `@openclaw/copilot`. Registers the GitHub Copilot agent runtime.
+
+- **[crusoe](/plugins/reference/crusoe)** (`@openclaw/crusoe-provider`) - npm or ClawHub: `@openclaw/crusoe-provider`. Adds Crusoe model provider support to OpenClaw.
 
 - **[deepinfra](/plugins/reference/deepinfra)** (`@openclaw/deepinfra-provider`) - npm or ClawHub: `@openclaw/deepinfra-provider`. Adds DeepInfra model provider support to OpenClaw.
 

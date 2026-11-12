@@ -203,6 +203,7 @@ messages and normalizes `stats.cached` into `cacheRead`; legacy
 | Chutes                                  | `chutes`                         | `CHUTES_API_KEY` or `CHUTES_OAUTH_TOKEN`       | `chutes/zai-org/GLM-5-TEE`                                 |
 | ClawRouter                              | `clawrouter`                     | `CLAWROUTER_API_KEY`                           | `clawrouter/anthropic/claude-sonnet-4-6`                   |
 | Cohere                                  | `cohere`                         | `COHERE_API_KEY`                               | `cohere/command-a-plus-05-2026`                            |
+| [Crusoe](/providers/crusoe)             | `crusoe`                         | `CRUSOE_API_KEY`                               | `crusoe/openai/gpt-oss-120b`                               |
 | DeepInfra                               | `deepinfra`                      | `DEEPINFRA_API_KEY`                            | `deepinfra/deepseek-ai/DeepSeek-V4-Flash`                  |
 | DeepSeek                                | `deepseek`                       | `DEEPSEEK_API_KEY`                             | `deepseek/deepseek-v4-flash`                               |
 | Featherless AI                          | `featherless`                    | `FEATHERLESS_API_KEY`                          | `featherless/Qwen/Qwen3-32B`                               |

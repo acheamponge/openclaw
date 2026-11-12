@@ -686,6 +686,12 @@
           - "extensions/cohere/**"
           - "docs/providers/cohere.md"
           - "docs/plugins/reference/cohere.md"
+"extensions: crusoe":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "extensions/crusoe/**"
+          - "docs/providers/crusoe.md"
+          - "docs/plugins/reference/crusoe.md"
 "extensions: comfy":
   - changed-files:
       - any-glob-to-any-file:

@@ -129,6 +129,7 @@ elements removed; geometry unchanged) of the monochrome SVGs published in
 | `ProviderIcon-cloudflare.svg`  | `cloudflare.svg`                                           |
 | `ProviderIcon-cohere.svg`      | `cohere.svg`                                               |
 | `ProviderIcon-comfy.svg`       | `comfyui.svg`                                              |
+| `ProviderIcon-crusoe.svg`      | `crusoe.svg`                                               |
 | `ProviderIcon-deepinfra.svg`   | `deepinfra.svg`                                            |
 | `ProviderIcon-fal.svg`         | `fal.svg`                                                  |
 | `ProviderIcon-featherless.svg` | `featherless.svg`                                          |

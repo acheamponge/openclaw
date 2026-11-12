@@ -511,6 +511,56 @@
       }
     },
     {
+      "name": "@openclaw/crusoe-provider",
+      "description": "OpenClaw Crusoe provider plugin.",
+      "source": "official",
+      "kind": "provider",
+      "openclaw": {
+        "plugin": {
+          "id": "crusoe",
+          "label": "Crusoe"
+        },
+        "providers": [
+          {
+            "id": "crusoe",
+            "name": "Crusoe",
+            "docs": "/providers/crusoe",
+            "categories": [
+              "cloud",
+              "llm"
+            ],
+            "envVars": [
+              "CRUSOE_API_KEY"
+            ],
+            "authChoices": [
+              {
+                "method": "api-key",
+                "choiceId": "crusoe-api-key",
+                "choiceLabel": "Crusoe API key",
+                "choiceHint": "API key",
+                "groupId": "crusoe",
+                "groupLabel": "Crusoe",
+                "groupHint": "API key",
+                "optionKey": "crusoeApiKey",
+                "cliFlag": "--crusoe-api-key",
+                "cliOption": "--crusoe-api-key <key>",
+                "cliDescription": "Crusoe API key",
+                "onboardingScopes": [
+                  "text-inference"
+                ]
+              }
+            ]
+          }
+        ],
+        "install": {
+          "clawhubSpec": "clawhub:@openclaw/crusoe-provider",
+          "npmSpec": "@openclaw/crusoe-provider",
+          "defaultChoice": "npm",
+          "minHostVersion": ">=2026.11.3"
+        }
+      }
+    },
+    {
       "name": "@openclaw/cloudflare-ai-gateway-provider",
       "description": "OpenClaw Cloudflare AI Gateway provider plugin.",
       "source": "official",

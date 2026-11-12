@@ -17,6 +17,7 @@ const BUILT_IN_MODEL_PROVIDER_OVERLAY_IDS = new Set([
   "codex",
   "comfy",
   "copilot-proxy",
+  "crusoe",
   "dashscope",
   "deepinfra",
   "deepseek",

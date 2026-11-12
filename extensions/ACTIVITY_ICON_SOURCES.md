@@ -29,6 +29,7 @@ The following defaults reuse the corresponding files in [`ui/public/provider-ico
 | `comfy`                 | `ProviderIcon-comfy.svg`        |
 | `copilot`               | `ProviderIcon-copilot.svg`      |
 | `copilot-proxy`         | `ProviderIcon-copilot.svg`      |
+| `crusoe`                | `ProviderIcon-crusoe.svg`       |
 | `deepgram`              | `ProviderIcon-deepgram.svg`     |
 | `deepinfra`             | `ProviderIcon-deepinfra.svg`    |
 | `deepseek`              | `ProviderIcon-deepseek.svg`     |
